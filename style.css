@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(arka.png);
+  background-size: 1480px;
+}
+.box{
+  border-radius: 10%;
+  width: 450px;
+  background: url(border.png);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: #FFDBFE;
+  font-family: sans-serif;
+}
+.box img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.box img:hover{
+  transform: scale(0.8);
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  
+}
+.boc h5{
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 4px;
+  text-align: justify;
+}
+.box p{
+  text-align: justify;
+  letter-spacing: 1px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: #FFDBFE;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #9B658B;
+}
